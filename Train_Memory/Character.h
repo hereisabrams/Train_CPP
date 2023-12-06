@@ -10,6 +10,7 @@ struct Character
 
 	void PrintHealth();
 
-	string Name;
-	float Health;
+	string* Name;
+	float* Health;
+	int* Age;
 };

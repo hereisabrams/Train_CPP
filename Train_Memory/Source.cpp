@@ -28,8 +28,6 @@ int main() {
 	{
 		Weapon* ptrToWpn = new Weapon(); // stored in heap instead of on the stack
 
-		//ptrToChar->Name = { "I am the one who knocks " + to_string(i) + " times." };
-
 		// if the following lines are not added the old objects are not deleted from memory
 		delete ptrToWpn;
 		ptrToWpn = { nullptr };
